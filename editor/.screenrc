@@ -1,0 +1,15 @@
+screen vim editor.c
+title "Vim editing"
+split -v
+focus
+screen bash -ic 'watch make -B'
+title "Code compiling"
+split
+focus
+screen bash -ic '../intermediario/intermediario 30000 ../intermediario/topics.txt'
+title "Intermediario"
+split 
+focus
+screen bash -ic './test_editor_avanz'
+title "Execute"
+focus

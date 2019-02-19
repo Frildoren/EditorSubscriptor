@@ -1,0 +1,39 @@
+﻿Compilación iniciada a las 03/03/2016 12:57:55.
+     1>Proyecto "H:\DATSI\SD\EDSU.2015\EDSU.vcxproj" en el nodo 2 (Build destinos).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(942,5): warning MSB8027: Two or more files with the name of comun.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are editor\comun.c, intermediario\comun.c, subscriptor\comun.c.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(942,5): warning MSB8027: Two or more files with the name of edsu_comun.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are editor\edsu_comun.c, subscriptor\edsu_comun.c.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt editor\test_editor.c
+         test_editor.c
+     1>editor\test_editor.c(15): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : vea la declaración de 'sscanf'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\DATSI\SD\EDSU.2015\Debug\EDSU.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\DATSI\SD\EDSU.2015\Debug\EDSU.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\DATSI\SD\EDSU.2015\Debug\EDSU.lib" /MACHINE:X86 Debug\comun.obj
+         Debug\editor.obj
+         Debug\edsu_comun.obj
+         Debug\test_editor.obj
+         Debug\test_editor_avanz.obj
+         Debug\comun.obj
+         Debug\intermediario.obj
+         Debug\comun.obj
+         Debug\edsu_comun.obj
+         Debug\subscriptor.obj
+         Debug\test_subscriptor.obj
+         Debug\test_subscriptor_avanz.obj
+     1>test_editor_avanz.obj : error LNK2005: ya se definió _main en test_editor.obj
+     1>Debug\comun.obj : warning LNK4042: objeto especificado más de una vez; omitidos los sobrantes
+     1>intermediario.obj : error LNK2005: ya se definió _main en test_editor.obj
+     1>Debug\comun.obj : warning LNK4042: objeto especificado más de una vez; omitidos los sobrantes
+     1>Debug\edsu_comun.obj : warning LNK4042: objeto especificado más de una vez; omitidos los sobrantes
+     1>test_subscriptor.obj : error LNK2005: ya se definió _ops en test_editor_avanz.obj
+     1>test_subscriptor.obj : error LNK2005: ya se definió _ops_nom en test_editor_avanz.obj
+     1>test_subscriptor.obj : error LNK2005: ya se definió _main en test_editor.obj
+     1>test_subscriptor_avanz.obj : error LNK2005: ya se definió _ops en test_editor_avanz.obj
+     1>test_subscriptor_avanz.obj : error LNK2005: ya se definió _ops_nom en test_editor_avanz.obj
+     1>test_subscriptor_avanz.obj : error LNK2005: ya se definió _main en test_editor.obj
+     1>H:\DATSI\SD\EDSU.2015\Debug\EDSU.exe : fatal error LNK1169: se encontraron uno o más símbolos definidos simultáneamente
+     1>Compilación del proyecto terminada "H:\DATSI\SD\EDSU.2015\EDSU.vcxproj" (Build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:01.87

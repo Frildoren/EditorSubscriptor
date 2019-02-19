@@ -1,0 +1,9 @@
+Para realizar eta práctica primeramente dediqué varias a horas a diseñar, programar y probar las estructuras de datos que almacen los temas y suscriptores en el módulo intermediario.
+
+Esto no fue demasiado sencillo ya que, acostumbrado a otros lenguajes de programación, C me resultaba trabajoso a la hora de comprender los structs. 
+Muchos errores inicialmente vinieron de pasar variables por copia y no por referencia en algunas funciones.
+
+Cuando las estructuras de datos funcionaban correctamente, pude centrarme en la implementación de comunicaciones entre los módulos.
+Tras solventar un error con la ayuda del profesor, por el cual el programa esperaba una IP para servidor y permitía un nombre de host, pude desarrollar todo el código y arreglar muchos errores de sincronía.
+
+La práctica, aunque no parece demasiado complicada en lo que pide el enunciado, resulta bastante trabajosa al implementar tantas posibles acciones y 3 módulos distintos, y creo que es interesante y he aprendido mucho realizándola.

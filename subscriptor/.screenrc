@@ -1,0 +1,14 @@
+screen vim subscriptor.c
+title "Vim editing"
+split -v
+focus
+screen bash -ic 'watch make -B'
+title "Code compiling"
+split 
+focus
+screen bash -ic '../intermediario/intermediario 30000 ../intermediario/topics.txt'
+title "Execute intermediario"
+split
+focus
+screen bash -ic './test_subscriptor_avanz'
+focus
